@@ -1,0 +1,528 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+header {
+    width: 100%;
+    height: 1rem;
+    padding: 25px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:orange;
+    box-shadow: 0px 2px 6px orange;
+    top: 0;
+    z-index: 100;
+    color: orange;
+}
+.main-header {
+    font-size: 1rem;
+    color: black;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.intro {
+    height: 600px;
+    width: 86%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    float: center;
+    border: 10px solid orange;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    margin: 8%;
+}
+#profile {
+    display: flex;
+    height: 150px;
+    width: 150px;
+    border-bottom: 10px solid rgb(10, 8, 3);
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+}
+
+#proftext {
+    font-size: 1rem;
+    color: black;
+    margin: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.intro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+#soft, #tech, #tools {
+    flex: 1;
+    width: 20%;
+    height: 80%;
+    border-radius: 10px;
+    border: 10px solid orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8%;
+    box-sizing: border-box;
+    font-size: 1.2rem;
+}
+#skill {
+    margin-top: 2%;
+    color: black;
+    font-size: 2rem;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 10px;
+}
+h2,h3,h4,h5,h6 {
+    color: orange;
+}
+.probut {
+    position: relative;
+    height: 2%;
+}
+.buttons {
+    position: absolute;
+    bottom: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 20px;
+}
+.project-btn {
+    padding: 10px 20px;
+    border: 2px solid #ff8c42;
+    border-radius: 25px;
+    color: #070301de;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.project-btn:hover {
+    background-color: #e67e22;
+    color: white;
+    transform: translateY(-2px);
+}
+.gproject {
+    height: 710px;
+    width: 86%;
+    margin: 8%;
+    border: 10px solid orange;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    padding: 20px;
+    box-sizing: border-box;
+}
+.top-projects {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.project-card {
+    width: 22%;
+    min-height: 350px;
+    border-radius: 10px;
+    border: 10px solid orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.2rem;
+}
+.bottom-projects {
+    display: flex;
+    justify-content: center;
+    width: 88%;
+    margin: 0 auto;
+}
+.project-card2 {
+    width: 100%;
+    border-radius: 10px;
+    border: 10px solid orange;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    padding: 15px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 1.2rem;
+    margin-top: 2%;
+}
+.sub-proj {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 15px;
+}
+.sub-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.proj-img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.project-btn2 {
+    padding: 10px 20px;
+    border: 2px solid #ff8c42;
+    border-radius: 25px;
+    color: #070301de;
+    font-weight: 600;
+    cursor: pointer;
+    background-color: white;
+    transition: background-color 0.3s, transform 0.2s;
+}
+.project-btn2:hover {
+    background-color: #e67e22;
+    color: white;
+    transform: translateY(-2px);
+}
+.indipro {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start;
+    gap: 15px; 
+    padding: 20px;
+    width: 88%;
+    border-radius: 10px;
+    border: 10px solid orange;
+    box-sizing: border-box;
+    margin: 5%;
+    background-color: #fff; 
+}
+.proj-whop {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+.project-link {
+    text-decoration: none;
+    color: white;
+    background-color: #ff8c42;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-weight: 600;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.project-link:hover {
+    background-color: #e67e22;
+    transform: translateY(-2px);
+}
+.work-exp {
+    width: 98%;
+    margin: 40px auto;
+    padding: 25px;
+    border: 10px solid orange;
+    border-radius: 10px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.work-exp h2 {
+    margin-bottom: 15px;
+}
+.work-exp ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 0 auto 20px auto;
+    max-width: 600px;
+    text-align: left; 
+}
+.work-exp li {
+    margin-bottom: 8px;
+    font-size: 1.05rem;
+}
+.buttonss {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;    
+}
+.project-btn3 {
+    padding: 10px 25px;
+    border: 2px solid #ff8c42;
+    border-radius: 25px;
+    background-color: white;
+    color: #070301de;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease,
+                color 0.3s ease,
+                transform 0.2s ease;
+}
+.project-btn3:hover {
+    background-color: #e67e22;
+    color: white;
+    transform: translateY(-2px);
+}
+.cert {
+    width: 88%;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 20px;
+    border: 10px solid orange;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+
+    box-sizing: border-box;
+}
+.cert-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.cert-img {
+    width: 100%;
+    max-width: 220px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.buttonsss {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.project-btn4 {
+    padding: 10px 25px;
+    border: 2px solid #ff8c42;
+    border-radius: 25px;
+    background-color: white;
+    color: #070301de;
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease,
+                color 0.3s ease,
+                transform 0.2s ease;
+}
+.project-btn4:hover {
+    background-color: #e67e22;
+    color: white;
+    transform: translateY(-2px);
+}
+.contact-info {
+    width: 88%;
+    margin: 40px auto;
+    padding: 25px;
+    border-radius: 10px;
+    border: 10px solid orange;
+    box-sizing: border-box;
+    text-align: center;
+}
+.contact-info p {
+    margin: 8px 0;
+    font-size: 1.05rem;
+}
+.buttonssss {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.project-btn5 {
+    display: inline-block;
+    padding: 10px 25px;
+    border: 2px solid #ff8c42;
+    border-radius: 25px;
+    background-color: white;
+    color: #070301de;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease,
+                color 0.3s ease,
+                transform 0.2s ease;
+}
+.project-btn5:hover {
+    background-color: #e67e22;
+    color: white;
+    transform: translateY(-2px);
+}
+.buttonsssss {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.project-btn6 {
+    padding: 10px 25px;
+    border: 2px solid #ff8c42;
+    border-radius: 25px;
+    background-color: white;
+    color: #070301de;
+    font-weight: 600;
+    font-size: 15px;
+    text-decoration: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease,
+                color 0.3s ease,
+                transform 0.2s ease;
+}
+.project-btn6:hover {
+    background-color: #e67e22;
+    color: white;
+    transform: translateY(-2px);
+}
+.hidden {
+    display: none !important;
+}
+.fade-show {
+    animation: fadeIn 0.4s ease forwards;
+}
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@media (max-width: 1200px) {
+    .ong {
+        flex-direction: column;
+        padding: 40px 20px;
+        gap: 30px;
+    }
+
+    #soft, #tech, #tools {
+        width: 45%;
+        margin-bottom: 20px;
+    }
+
+    .probut .buttons {
+        flex-direction: column;
+        bottom: 20px;
+        gap: 15px;
+    }
+
+    .gproject, .indipro, .cert, .work-exp, .contact-info {
+        width: 95%;
+        margin: 5%;
+        padding: 15px;
+    }
+
+    .top-projects, .bottom-projects {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .project-card, .project-card2 {
+        width: 90%;
+    }
+
+    .sub-proj {
+        flex-direction: column;
+        gap: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .buttons {
+        bottom: 10px;
+        gap: 10px;
+    }
+
+    #soft, #tech, #tools {
+        width: 90%;
+    }
+
+    .project-card, .project-card2 {
+        width: 100%;
+    }
+}
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+    .ong-text h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .btn-primary,
+    .project-btn, .project-btn2, .project-btn3, .project-btn4, .project-btn5, .project-btn6 {
+        padding: 8px 15px;
+        font-size: 14px;
+    }
+    .top-projects, .bottom-projects, .sub-proj {
+        flex-direction: column;
+        align-items: center;
+    }
+    .proj-img {
+        width: 90%;
+    }
+    .work-exp ul {
+        text-align: left;
+        padding-left: 15px;
+    }
+}
+.lightbox {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 200;
+}
+.lightbox img {
+    max-width: 90%;
+    max-height: 80%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px #fff;
+    animation: fadeIn 0.3s ease forwards;
+}
+.lightbox span {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    font-size: 2rem;
+    color: white;
+    cursor: pointer;
+}
