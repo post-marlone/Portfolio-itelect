@@ -90,7 +90,7 @@ header {
     font-weight: 600;
     transition: 0.3s;
 }
-======.btn-primary:hover {
+.btn-primary:hover {
     background: #e67e22;
 }
 .ong-img img {
@@ -125,3 +125,4 @@ header {
         text-align: center;
     }
 }
+
